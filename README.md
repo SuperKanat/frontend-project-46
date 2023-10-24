@@ -11,4 +11,4 @@
 
 ### Сравнение алоских json файлов
 
-[![asciicast]](https://asciinema.org/a/0aoAHP3NOQXx3gIV5G4dlw73V)
+[![asciicast](https://asciinema.org/a/0aoAHP3NOQXx3gIV5G4dlw73V.svg)](https://asciinema.org/a/0aoAHP3NOQXx3gIV5G4dlw73V)
