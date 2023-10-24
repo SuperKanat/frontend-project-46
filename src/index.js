@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
+import parser from './parsers.js';
 import _ from 'lodash';
 
 const resolvePath = (filePath) => (filePath.includes('__fixtures__')
@@ -10,11 +11,8 @@ const gendiff = (filePath1, filePath2) => {
   const path1 = resolvePath(filePath1);
   const path2 = resolvePath(filePath2);
 
-  const file1 = readFileSync(path1, 'utf-8');
-  const file2 = readFileSync(path2, 'utf-8');
-
-  const data1 = JSON.parse(file1);
-  const data2 = JSON.parse(file2);
+  const data1 = parser(path1);
+  const data2 = parser(path2);
 
   const keys = _.union(Object.keys(data1), Object.keys(data2)).sort();
 
