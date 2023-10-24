@@ -6,9 +6,6 @@
   "scripts": {
     "test": "npx jest"
   },
-  "jest": {
-    "collectCoverage": true
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SuperKanat/frontend-project-46.git"
