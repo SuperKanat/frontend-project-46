@@ -9,6 +9,6 @@
 
 Данный проект представляет собой консольную утилиту для сравнения двух объектов. Объекты считываются только из файлов форматов JSON, YML и YAML.
 
-### Сравнение алоских json файлов
+### Сравнение палоских json файлов
 
 [![asciicast](https://asciinema.org/a/0aoAHP3NOQXx3gIV5G4dlw73V.svg)](https://asciinema.org/a/0aoAHP3NOQXx3gIV5G4dlw73V)
